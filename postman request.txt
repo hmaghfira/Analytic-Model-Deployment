@@ -1,0 +1,40 @@
+[
+
+{
+"LIMIT_BAL":30000,
+ "PAY_1":0,
+ "AGE":22,
+ "EDUCATION":2,
+ "SEX":1
+},
+
+{
+"LIMIT_BAL":30000,
+ "PAY_1":0,
+ "AGE":22,
+ "EDUCATION":2,
+ "SEX":1
+},
+{
+"LIMIT_BAL":30000,
+ "PAY_1":0,
+ "AGE":22,
+ "EDUCATION":2,
+ "SEX":1
+},
+
+{
+"LIMIT_BAL":30000, "PAY_1":0,
+ "AGE":22,
+ "EDUCATION":2,
+ "SEX":1
+},
+
+{
+"LIMIT_BAL":30000,
+ "PAY_1":0,
+ "AGE":22,
+ "EDUCATION":2,
+ "SEX":1
+}
+]
