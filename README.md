@@ -24,7 +24,7 @@ To use this credit scoring prediction model, you should have :
 **4. Fill the body with the request script. The example of the script is [here](https://github.com/hmaghfira/Analytic-Model-Deployment/blob/master/postman%20request.txt)**. The guidance for input parameters, go to this [section](#the-guidance-for-input-parameters)<br>
 **5. After that, click ``SEND`` button beside of API link column (the button is blue) to run the script.**<br>
 **6. On the below of the body script, you will see the result of the credit scoring prediction.**
-![](img/postman.png)
+![](postman.png)
 
 ### The guidance for input parameters<br>
 
