@@ -21,7 +21,7 @@ To use this credit scoring prediction model, you should have :
 **1. Open the postman, then set the request method to ``POST``.**<br>
 **2. Input the API link ``hmaghfira.pythonanywhere.com/api``.**<br>
 **3. Open the Body tab below the API link column, click ``raw`` and choose ``JSON`` as type of the input request.**<br>
-**4. Fill the body with the request script. The example of the script is [here](https://github.com/hmaghfira/Analytic-Model-Deployment/blob/master/postman%20request.txt)**. The guidance for input parameters, go to this [section](https://github.com/hmaghfira/Analytic-Model-Deployment###the-guidance-for-input-parameters)<br>
+**4. Fill the body with the request script. The example of the script is [here](https://github.com/hmaghfira/Analytic-Model-Deployment/blob/master/postman%20request.txt)**. The guidance for input parameters, go to this [section](#the-guidance-for-input-parameters)<br>
 **5. After that, click ``SEND`` button beside of link API column (the button is blue) to run the script.**<br>
 **6. On the below of the body script, you will see the result of the credit scoring prediction.**
 ![](img/postman.png)
