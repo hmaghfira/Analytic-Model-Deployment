@@ -19,16 +19,16 @@ To use the predictor API, you should have :
 1. Postman [install here](https://www.getpostman.com/).
 
 # Steps
-1. Open the postman, then set the request method to ``POST`` and input the API link ``hmaghfira.pythonanywhere.com/api``.
+**1. Open the postman, then set the request method to ``POST`` and input the API link ``hmaghfira.pythonanywhere.com/api``.**
 ![](img/step1.PNG)
 
-2. After that, open the Headers tab below the link API. Then, set Key to ``Content-Type`` and Value to ``application/json``.
+**2. After that, open the Headers tab below the link API. Then, set Key to ``Content-Type`` and Value to ``application/json``.**
 ![](img/step2.PNG)
 
-3. Then, open the Body tab beside of Headers tab. Click ``raw`` and choose ``JSON`` as the type of the input request.
+**3. Then, open the Body tab beside of Headers tab. Click ``raw`` and choose ``JSON`` as the type of the input request.**
 ![](img/step3.PNG)
 
-4. Fill the body with the request script. The example of the script is [here](https://github.com/hmaghfira/Analytic-Model-Deployment/blob/master/postman%20request.txt).
+**4. Fill the body with the request script. The example of the script is [here](https://github.com/hmaghfira/Analytic-Model-Deployment/blob/master/postman%20request.txt).**
 ![](img/step4.PNG)
 
 The explanation of the input request :<br>
@@ -42,10 +42,10 @@ The explanation of the input request :<br>
 |SEX|The gender of the customer|1 : Man, 2 : Woman|
 
 
-5. After that, click ``SEND`` button beside of link API column (the button is blue).
+**5. After that, click ``SEND`` button beside of link API column (the button is blue).**
 ![](img/step5.PNG)
 
-6. On the below of the body script, you will see the result prediction of the credit scoring.
+**6. On the below of the body script, you will see the result prediction of the credit scoring.**
 ![](img/step6.PNG)
 
 # Author
