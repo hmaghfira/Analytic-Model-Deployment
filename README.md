@@ -1,37 +1,32 @@
 # Analytic Model Deployment
-This repository contains model analytics deployment using random forest algorithm. The model is deployed using flask framework. You can run this model by using postman application.<br>
-This repository has two folders :
-1. [code](https://github.com/hmaghfira/Analytic-Model-Deployment/tree/master/code)
-This folder contains several files:
--  Credit-Score.py : model python
-- flask_app.py : server python to be uploaded on Flask
-- random_forest.pkl : random forest algorithm in pickle 
-- request.py : request model in python to generate the algorithm into pickle
-2. [dataset](https://github.com/hmaghfira/Analytic-Model-Deployment/tree/master/dataset)
-- training.csv : dataset to build the model
-3. [img](https://github.com/hmaghfira/Analytic-Model-Deployment/tree/master/img)
-- the photos of the steps
+This repository contains credit scoring prediction model using random forest algorithm. The model is deployed by using Flask framework. You can run this model by using postman application.<br>
+This repository has two folders :<br>
 
-The steps and requirement needed will be explained on the next section.
+**1. [code](https://github.com/hmaghfira/Analytic-Model-Deployment/tree/master/code)**
+- Credit-Score.py : model python.
+- flask_app.py : server python to be uploaded on Flask.
+- random_forest.pkl : random forest algorithm in pickle.
+- request.py : request model in python.<br>
+
+**2. [dataset](https://github.com/hmaghfira/Analytic-Model-Deployment/tree/master/dataset)**
+- training.csv : dataset to build the model.
+
+The steps and requirements needed to run the credit scoring prediction will be explained on the next section.
 
 # Getting Started 
-To use the predictor API, you should have :
+To use this credit scoring prediction model, you should have :
 1. Postman [install here](https://www.getpostman.com/).
 
 # Steps
-**1. Open the postman, then set the request method to ``POST`` and input the API link ``hmaghfira.pythonanywhere.com/api``.**
-![](img/step1.PNG)
+**1. Open the postman, then set the request method to ``POST``.**<br>
+**2. Input the API link ``hmaghfira.pythonanywhere.com/api``.**<br>
+**3. Open the Body tab below the API link column, click ``raw`` and choose ``JSON`` as type of the input request.**<br>
+**4. Fill the body with the request script. The example of the script is [here](https://github.com/hmaghfira/Analytic-Model-Deployment/blob/master/postman%20request.txt)**. The guidance for input parameters, go to this [section](https://github.com/hmaghfira/Analytic-Model-Deployment###the-guidance-for-input-parameters)<br>
+**5. After that, click ``SEND`` button beside of link API column (the button is blue) to run the script.**<br>
+**6. On the below of the body script, you will see the result of the credit scoring prediction.**
+![](img/postman.png)
 
-**2. After that, open the Headers tab below the link API. Then, set Key to ``Content-Type`` and Value to ``application/json``.**
-![](img/step2.PNG)
-
-**3. Then, open the Body tab beside of Headers tab. Click ``raw`` and choose ``JSON`` as the type of the input request.**
-![](img/step3.PNG)
-
-**4. Fill the body with the request script. The example of the script is [here](https://github.com/hmaghfira/Analytic-Model-Deployment/blob/master/postman%20request.txt).**
-![](img/step4.PNG)
-
-The explanation of the input request :<br>
+### The guidance for input parameters<br>
 
 |NAME|EXPLAIN|EXAMPLE OF INPUT|
 |---|---|---|
@@ -40,13 +35,6 @@ The explanation of the input request :<br>
 |AGE|The age of the customer|Integer : 22 (means 22 years old)|
 |EDUCATION|The education level of the customer| 1 : S2/S3, 2 : S1, 3 : SMA, 4 : others|
 |SEX|The gender of the customer|1 : Man, 2 : Woman|
-
-
-**5. After that, click ``SEND`` button beside of link API column (the button is blue).**
-![](img/step5.PNG)
-
-**6. On the below of the body script, you will see the result prediction of the credit scoring.**
-![](img/step6.PNG)
 
 # Author
 Hania Maghfira, Astra Data Scientist Bootcamp 2019.<br>
