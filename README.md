@@ -31,6 +31,17 @@ To use the predictor API, you should have :
 4. Fill the body with the request script. The example of the script is [here](https://github.com/hmaghfira/Analytic-Model-Deployment/blob/master/postman%20request.txt).
 ![](img/step4.PNG)
 
+The explanation of the input request :<br>
+
+|NAME|EXPLAIN|EXAMPLE OF INPUT|
+|---|---|---|
+|LIMIT_BAL|The limit of the credit balance|The amount of rupiah : 30000 (means Rp. 30.000)|
+|PAY_1|The status whether the customer pay on time or not| 0 : On time, 1 : late|
+|AGE|The age of the customer|Integer : 22 (means 22 years old)|
+|EDUCATION|The education level of the customer| 1 : S2/S3, 2 : S1, 3 : SMA, 4 : others|
+|SEX|The gender of the customer|1 : Man, 2 : Woman|
+
+
 5. After that, click ``SEND`` button beside of link API column (the button is blue).
 ![](img/step5.PNG)
 
